@@ -7,6 +7,15 @@ The platform allows customers to browse products from a local store, search and 
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **[Visit LocalMart Live →](https://prodigy-fs-03-az76.onrender.com)**
+
+## 📂 GitHub Repository
+
+🔗 **[View Source Code →](https://github.com/Aadicodes0714/PRODIGY_FS_03)**
+
+---
 ## 📌 Project Overview
 
 The goal of this project was to build an e-commerce platform for a local store where customers can:
