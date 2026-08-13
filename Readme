@@ -1,0 +1,55 @@
+📁 Final Project Structure
+```
+PRODIGY_FS_03/
+│
+├── frontend/
+│   ├── index.html
+│   ├── products.html
+│   ├── product.html
+│   ├── cart.html
+│   ├── checkout.html
+│   ├── login.html
+│   ├── register.html
+│   │
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── products.css
+│   │   └── cart.css
+│   │
+│   └── js/
+│       ├── app.js
+│       ├── products.js
+│       ├── product.js
+│       ├── cart.js
+│       └── auth.js
+│
+├── backend/
+│   ├── server.js
+│   │
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── models/
+│   │   ├── Product.js
+│   │   ├── User.js
+│   │   └── Order.js
+│   │
+│   ├── routes/
+│   │   ├── productRoutes.js
+│   │   ├── authRoutes.js
+│   │   └── orderRoutes.js
+│   │
+│   ├── controllers/
+│   │   ├── productController.js
+│   │   ├── authController.js
+│   │   └── orderController.js
+│   │
+│   └── middleware/
+│       └── authMiddleware.js
+│
+├── .env
+├── .gitignore
+├── package.json
+└── README.md
+
+```

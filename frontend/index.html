@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LocalMart | Shop Local</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🛒 <span>Local</span>Mart
+        </div>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="#products">Products</a>
+            <a href="#categories">Categories</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="cart.html" class="cart-btn">
+                🛒 Cart <span id="cart-count">0</span>
+            </a>
+
+            <a href="login.html" class="login-btn">
+                Login
+            </a>
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-tag">
+                🏪 YOUR LOCAL ONLINE STORE
+            </p>
+
+            <h1>
+                Shop Local.<br>
+                <span>Shop Smart.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover quality products from your local store,
+                all in one place. Browse, choose and shop with ease.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#products" class="primary-btn">
+                    Shop Now →
+                </a>
+
+                <a href="#categories" class="secondary-btn">
+                    Explore Categories
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <div class="shopping-icon">
+                🛍️
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+    <section class="categories-section" id="categories">
+
+        <div class="section-heading">
+
+            <p class="section-tag">
+                EXPLORE
+            </p>
+
+            <h2>Shop by Category</h2>
+
+            <p>
+                Find exactly what you're looking for.
+            </p>
+
+        </div>
+
+
+        <div class="categories">
+
+            <div class="category-card">
+                <div class="category-icon">📱</div>
+                <h3>Electronics</h3>
+                <p>Smart gadgets & accessories</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">👕</div>
+                <h3>Fashion</h3>
+                <p>Style for every occasion</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🏠</div>
+                <h3>Home</h3>
+                <p>Everything for your home</p>
+            </div>
+
+            <div class="category-card">
+                <div class="category-icon">🛒</div>
+                <h3>Grocery</h3>
+                <p>Fresh everyday essentials</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products-section" id="products">
+
+        <div class="section-heading">
+
+            <p class="section-tag">
+                OUR STORE
+            </p>
+
+            <h2>Featured Products</h2>
+
+            <p>
+                Explore our most popular products.
+            </p>
+
+        </div>
+
+
+        <!-- Search + Filter -->
+
+        <div class="product-controls">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="🔍 Search products..."
+            >
+
+            <select id="category-filter">
+
+                <option value="all">
+                    All Categories
+                </option>
+
+                <option value="Electronics">
+                    Electronics
+                </option>
+
+                <option value="Fashion">
+                    Fashion
+                </option>
+
+                <option value="Home">
+                    Home
+                </option>
+
+                <option value="Grocery">
+                    Grocery
+                </option>
+
+            </select>
+
+            <select id="sort-products">
+
+                <option value="default">
+                    Sort Products
+                </option>
+
+                <option value="low-high">
+                    Price: Low → High
+                </option>
+
+                <option value="high-low">
+                    Price: High → Low
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <!-- Products will come from MongoDB -->
+
+        <div
+            id="products-container"
+            class="products-container"
+        >
+
+            <p class="loading">
+                Loading products...
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h2>🛒 LocalMart</h2>
+
+                <p>
+                    Shop local. Shop smart.
+                </p>
+            </div>
+
+
+            <div>
+                <h3>Quick Links</h3>
+
+                <a href="index.html">Home</a>
+                <a href="#products">Products</a>
+                <a href="#categories">Categories</a>
+            </div>
+
+
+            <div>
+                <h3>Contact</h3>
+
+                <p>📧 support@localmart.com</p>
+                <p>📞 +91 98765 43210</p>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 LocalMart. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

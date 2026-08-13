@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LocalMart | Shopping Cart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            🛒 <span>Local</span>Mart
+        </div>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="/#products">Products</a>
+            <a href="/#categories">Categories</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <a href="cart.html" class="cart-btn">
+                🛒 Cart
+                <span id="cart-count">0</span>
+            </a>
+
+            <a href="login.html" class="login-btn">
+                Login
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CART -->
+
+    <main class="cart-page">
+
+        <div class="cart-heading">
+
+            <p class="section-tag">
+                YOUR SHOPPING CART
+            </p>
+
+            <h1>
+                Shopping Cart 🛒
+            </h1>
+
+            <p>
+                Review your products before checkout.
+            </p>
+
+        </div>
+
+
+        <div class="cart-layout">
+
+            <!-- CART ITEMS -->
+
+            <section class="cart-items-section">
+
+                <div
+                    id="cart-items"
+                    class="cart-items"
+                >
+                    <!-- Products loaded by cart.js -->
+                </div>
+
+            </section>
+
+
+            <!-- CART SUMMARY -->
+
+            <aside class="cart-summary">
+
+                <h2>
+                    Order Summary
+                </h2>
+
+                <div class="summary-row">
+
+                    <span>
+                        Subtotal
+                    </span>
+
+                    <strong id="subtotal">
+                        ₹0
+                    </strong>
+
+                </div>
+
+                <div class="summary-row">
+
+                    <span>
+                        Delivery
+                    </span>
+
+                    <strong>
+                        FREE
+                    </strong>
+
+                </div>
+
+                <hr>
+
+                <div class="summary-total">
+
+                    <span>
+                        Total
+                    </span>
+
+                    <strong id="total">
+                        ₹0
+                    </strong>
+
+                </div>
+
+                <button
+                    id="checkout-btn"
+                    class="checkout-btn"
+                >
+                    Proceed to Checkout →
+                </button>
+
+                <button
+                    id="clear-cart-btn"
+                    class="clear-cart-btn"
+                >
+                    Clear Cart
+                </button>
+
+                <a
+                    href="/"
+                    class="continue-shopping"
+                >
+                    ← Continue Shopping
+                </a>
+
+            </aside>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 LocalMart. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "prodigy_fs_03",
+  "version": "1.0.0",
+  "description": "📁 Final Project Structure\r ```\r PRODIGY_FS_03/\r │\r ├── frontend/\r │   ├── index.html\r │   ├── products.html\r │   ├── product.html\r │   ├── cart.html\r │   ├── checkout.html\r │   ├── login.html\r │   ├── register.html\r │   │\r │   ├── css/\r │   │   ├── style.css\r │   │   ├── products.css\r │   │   └── cart.css\r │   │\r │   └── js/\r │       ├── app.js\r │       ├── products.js\r │       ├── product.js\r │       ├── cart.js\r │       └── auth.js\r │\r ├── backend/\r │   ├── server.js\r │   │\r │   ├── config/\r │   │   └── db.js\r │   │\r │   ├── models/\r │   │   ├── Product.js\r │   │   ├── User.js\r │   │   └── Order.js\r │   │\r │   ├── routes/\r │   │   ├── productRoutes.js\r │   │   ├── authRoutes.js\r │   │   └── orderRoutes.js\r │   │\r │   ├── controllers/\r │   │   ├── productController.js\r │   │   ├── authController.js\r │   │   └── orderController.js\r │   │\r │   └── middleware/\r │       └── authMiddleware.js\r │\r ├── .env\r ├── .gitignore\r ├── package.json\r └── README.md",
+  "main": "index.js",
+  "scripts": {
+  "start": "node backend/server.js",
+  "dev": "nodemon backend/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aadicodes0714/PRODIGY_FS_03.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aadicodes0714/PRODIGY_FS_03/issues"
+  },
+  "homepage": "https://github.com/Aadicodes0714/PRODIGY_FS_03#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
